@@ -34,6 +34,10 @@ html {
     
 }
 
+#nav {
+    display: inline-block;
+}
+
 
 #nav , .subnav {
     list-style-type: none;
@@ -97,7 +101,27 @@ html {
 }
 
 
+#nav .nav-arrow-down {
+    font-size: 13px;
+}
 
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+    
+}
+
+#header .search-icon {
+    color:#fff;
+    font-size: 20px;
+    line-height: 46px;
+
+}
+
+#header .search-btn:hover {
+    cursor: pointer;
+    background-color: #f44336!important;
+}
 
 
 #slider {
